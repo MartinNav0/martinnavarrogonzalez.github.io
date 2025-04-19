@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Flapping Wing Aerodynamics",
+      "description": "Métodos basados en datos para predecir fuerzas en alas oscilantes con un 6% más de precisión y 14% menos datos.",
+      "link": "https://aero.uc3m.es/eap-lab/"
+    },
+    {
+      "title": "Wind Energy Harvesting with Flags",
+      "description": "Diseño y construcción de un sistema de recolección de energía eólica basado en flutter de banderas. Análisis experimental y simulaciones.",
+      "link": "https://aero.uc3m.es/research-areas/tethers-applied-to-aerospace-engineering/airborne-wind-energy/"
+    },
+    {
+      "title": "Supersonic Civil Transport Design",
+      "description": "Diseño conceptual de una aeronave supersónica civil en equipo. Evaluación estructural, aerodinámica y comercial.",
+      "link": ""
+    }
+  ]
