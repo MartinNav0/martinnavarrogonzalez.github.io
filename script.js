@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // LOAD TEXT
 
   function loadAboutText(lang) {
-    fetch(`text/about_${lang}.txt`)
+    fetch(`text/${lang}/about_${lang}.txt`)
       .then(response => response.text())
       .then(text => {
         document.getElementById("about-text").innerText = text;
