@@ -55,18 +55,15 @@ document.addEventListener("DOMContentLoaded", () => {
   function setLanguage(lang) {
     localStorage.setItem("lang", lang);
   
-    // Update text
     document.querySelectorAll("[data-i18n]").forEach(el => {
       const key = el.getAttribute("data-i18n");
       el.innerText = translations[lang][key] || `[${key}]`;
     });
   
-    // 🔁 Swap banner image
-    const hero = document.querySelector(".hero");
-    if (lang === "es") {
-      hero.style.backgroundImage = "url('Banner_es.png')";
-    } else if (lang === "en") {
-      hero.style.backgroundImage = "url('Banner_en.png')";
+    // ✅ Actualizar imagen del banner según idioma
+    const banner = document.getElementById("heroBanner");
+    if (banner) {
+      banner.src = `Banner_${lang}.png`;
     }
   }
   
