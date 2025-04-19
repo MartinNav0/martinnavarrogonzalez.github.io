@@ -63,8 +63,23 @@ document.addEventListener("DOMContentLoaded", () => {
     // ✅ Actualizar imagen del banner según idioma
     const banner = document.getElementById("heroBanner");
     if (banner) {
-      banner.src = `Banner_${lang}.png`;
+      banner.src = `img/Banner_${lang}.png`;
     }
+
+    loadAboutText(lang);
+  }
+
+  // LOAD TEXT
+
+  function loadAboutText(lang) {
+    fetch(`text/about_${lang}.txt`)
+      .then(response => response.text())
+      .then(text => {
+        document.getElementById("about-text").innerText = text;
+      })
+      .catch(error => {
+        console.error("Error loading about text:", error);
+      });
   }
   
   document.addEventListener("DOMContentLoaded", () => {
