@@ -68,6 +68,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   
   document.addEventListener("DOMContentLoaded", () => {
-    const lang = localStorage.getItem("lang") || "es";
+    const lang = localStorage.getItem("lang") || "en";
     setLanguage(lang);
   });
