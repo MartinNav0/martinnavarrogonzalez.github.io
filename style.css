@@ -67,7 +67,7 @@
     border-radius: 50%;
     border: 4px solid white;
     position: relative;
-    margin-top: 60px;  /* Pulls it halfway up into the banner */
+    margin-top: 220px;  /* Pulls it halfway up into the banner */
     margin-left: 20px;
     z-index: 2;
     box-shadow: 0 4px 8px rgba(0,0,0,0.4);
