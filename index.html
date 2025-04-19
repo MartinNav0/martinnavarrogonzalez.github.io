@@ -6,6 +6,40 @@
   <title>Martín Navarro | Data-Driven Innovation</title>
   <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
+  <style>
+    /* ==== BANNER IMG SOLUTION ==== */
+    .hero {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .hero img.hero-banner {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .profile-pic {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      border: 4px solid white;
+      position: relative;
+      margin: -70px 0 2em 50px;
+      z-index: 5;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+      background-color: white;
+      object-fit: cover;
+    }
+
+    @media (max-width: 600px) {
+      .profile-pic {
+        width: 90px;
+        height: 90px;
+        margin: -45px 0 1.5em 15px;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -17,6 +51,7 @@
 
   <!-- 🎓 Hero Section -->
   <header class="hero">
+    <img src="Banner_en.png" alt="Banner" class="hero-banner" />
     <img src="profile.jpeg" alt="Foto de Martín" class="profile-pic" />
   </header>
 
