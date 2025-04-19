@@ -20,18 +20,22 @@
     }
 
     .profile-pic {
-      width: 220px;
-      height: 220px;
+      width: 20vw;               /* Scales with window width */
+      height: 20vw;
+      min-width: 80px;           /* Ensures visibility on very small screens */
+      min-height: 80px;
+      max-width: 220px;          /* Prevents it from becoming too large */
+      max-height: 220px;
       border-radius: 50%;
-      border: 4px solid white;
+      border: 3px solid white;
       position: absolute;
-      bottom: -10px;
-      left: 50px;
+      left: 4vw;                 /* % from the left edge */
+      top: 1vw;              /* Pull it up from bottom of the hero */
       z-index: 5;
       box-shadow: 0 4px 8px rgba(0,0,0,0.4);
       background-color: white;
       object-fit: cover;
-    }
+}
 
     @media (max-width: 600px) {
       .profile-pic {
@@ -87,7 +91,7 @@
 
   <!-- 📎 Footer -->
   <footer>
-    <p>&copy; 2025 Martín Navarro | <a href="intro_page.html">← Home</a></p>
+    <p>&copy; 2025 Martín Navarro | <a href="index.html">← Home</a></p>
   </footer>
 
 </body>
