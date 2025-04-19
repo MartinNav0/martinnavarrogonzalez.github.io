@@ -41,6 +41,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
   }
   
   .overlay {
@@ -72,16 +74,6 @@
     box-shadow: 0 4px 8px rgba(0,0,0,0.4);
     background-color: white;
   }
-
-  /* 🔁 Responsive behavior */
-@media (max-width: 600px) {
-    .profile-pic {
-      width: 90px;
-      height: 90px;
-      top: 180px;
-      left: 20px;
-    }
-}
 
 /* NAV */
 
@@ -187,3 +179,18 @@
   .lang-switcher button:hover {
     background: var(--accent);     /* Amarillo como highlight */
   } 
+
+
+  @media (max-width: 600px) {
+    .hero {
+      height: 200px;
+      background-position: center top;
+    }
+  
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      top: 150px;
+      left: 20px;
+    }
+  }
