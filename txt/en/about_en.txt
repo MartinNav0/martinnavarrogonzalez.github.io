@@ -1,1 +1,7 @@
-I'm a researcher in data-driven engineering. I enjoy teaching, scientific communication, and tackling technical problems through analysis.
+Hi there! I’m Martín, a PhD student at Universidad Carlos III de Madrid. My research focuses on closed-loop control of turbulent flows, blending physical modeling, data analysis, and machine learning to understand and modify flow behavior.
+
+I graduated in Aerospace Engineering in 2023 and completed a Master’s in Industrial Mathematics in 2025, becoming a specialist in applying mathematical tools to solve complex technological challenges.
+
+I’m a naturally curious academic — I love learning about new topics and finding ways to apply them to my field. Lately, I’ve been diving into areas like cliodynamics, game theory, reinforcement learning, motorsport engineering (mostly race cars), data-driven modeling, and decision-making under uncertainty, among others I’m surely forgetting.
+
+Beyond research, I’m passionate about sharing and communicating science. Besides presenting at conferences and academic events, I organize roundtable discussions with fellow researchers to exchange ideas. I also take part in outreach activities like the Science Week and the European Researchers’ Night, aiming to spark curiosity in both kids and adults about what we do at the university.

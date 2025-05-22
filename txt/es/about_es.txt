@@ -1,1 +1,7 @@
-Soy investigador en ingeniería basada en datos. Me interesa la docencia, la comunicación científica y resolver problemas técnicos desde el análisis.
+¡Muy buenas! Soy Martín, doctorando en la Universidad Carlos III de Madrid. Mi trabajo se centra en el control en lazo cerrado de flujos turbulentos, combinando modelado físico, análisis de datos y machine learning para entender y modificar su comportamiento.
+
+En 2023 me gradué como ingeniero aeroespacial, y en 2025 terminé un máster en matemática industrial, especializándome en la aplicación de técnicas matemáticas avanzadas a problemas tecnológicos complejos.
+
+Académicamente soy muy inquieto: me interesan muchos temas, me encanta aprender sobre ellos y buscar cómo aplicarlos a mi campo. Últimamente he estado trasteando con cosas como cliodinámica, teoría de juegos, aprendizaje por refuerzo, ingeniería de competición (sobre todo en coches), modelado basado en datos, y toma de decisiones bajo incertidumbre… entre otros que seguro me estoy dejando.
+
+Además, me apasiona compartir lo que aprendo. Más allá de conferencias y eventos especializados, organizo mesas redondas en mi departamento para discutir ideas con mis compañeros. También participo en actividades de divulgación científica, como la Semana de la Ciencia o la Noche Europea de los Investigadores, donde intento despertar la curiosidad tanto de pequeños como de mayores sobre lo que hacemos en la universidad.
